@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "YUIUNI Accounting Fee Compare",
+  "version": "1.0.0",
+  "description": "Compare bookkeeping and closing quotes by total cost. Runs locally, without reading browser history or transmitting your figures.",
+  "action": { "default_popup": "index.html", "default_title": "Compare accounting fees" },
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'" }
+}
